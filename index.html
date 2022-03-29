@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--TODO: add favicon-->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Guess the color!</title>
+</head>
+<body>
+<div id="start">
+    <h1>Welcome to Guess the color game!</h1>
+    <button id="startbtn" onclick="start()">Start the game!</button>
+</div>
+<div id="game">
+    <h1>Guess the color!</h1>
+    <h2 id="points"></h2>
+    <div id="color"></div>
+<div id="choose">
+
+
+    <div class="colbox" id="1" onclick="verify(document.getElementById('1').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+    <div class="colbox" id="2" onclick="verify(document.getElementById('2').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+    <div class="colbox" id="3" onclick="verify(document.getElementById('3').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+    <div class="colbox" id="4" onclick="verify(document.getElementById('4').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+    <div class="colbox" id="5" onclick="verify(document.getElementById('5').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+    <div class="colbox" id="6" onclick="verify(document.getElementById('6').style.backgroundColor,document.getElementById('color').innerHTML)"></div>
+</div></div>
+</body>
+</html>
