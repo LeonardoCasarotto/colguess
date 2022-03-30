@@ -1,7 +1,11 @@
 
 var points = 0;
-//TODO: create a function for starting the game and hide the start button
-
+function newgame(){
+    document.getElementById("start").style.display = "none";
+    document.getElementById("choose").style.display = "block";
+    document.getElementById("game").style.display = "block";
+    start();
+}
 function start(){
 
     for(let i=1;i<7;i++){

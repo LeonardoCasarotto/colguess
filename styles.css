@@ -7,34 +7,43 @@
      background-attachment: fixed;
      background-size: cover;
  }
-#choose{
-    /*TODO get better the style of the button*/
-    margin:auto;
-    width: 1000px;
-    height: 700px;
 
+#game{
+    display:none;
 }
 .colbox{
     height: 300px;
     width: 300px;
+    margin:10px auto;
     border-radius: 30px;
     display: inline-block;
     cursor:pointer;
-/*FIXME: correct margin*/
-
-
 
 }
 
 #startbtn{
-    border-radius: 30px;
+    transition:all 0.5s ease;
+    border-radius: 15px;
     border: 1px solid black;
     font-size: 20px;
+    width:120px;
+    height:80px;
+    background-color: rgba(255, 170, 0, 0.7);
+}
+#startbtn:hover{
+    transition: all 0.5s ease;
+    font-size:25px;
 }
 #choose{
-    /*FIXME : hide at start*/
-    background-color: #ffaa00;
-    padding: 20px;
-    vertical-align: middle;
+
+    display: none;
+    width: 1000px;
+    height: 650px;
+    content-align: center;
+    margin: 20px auto;
+    background-color: rgba(245, 255, 175, 0.37);
     border-radius: 30px;
+}
+#correct,#wrong{
+
 }
